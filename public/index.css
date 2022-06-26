@@ -1,0 +1,132 @@
+.bg-container {
+  background-color: #fff;
+}
+
+.top-nav {
+  background-color: #aedbce;
+  padding: 2% 2%;
+}
+
+.top {
+  margin: 0 10%;
+}
+
+.top .carousel-inner {
+  margin: 0 12%;
+}
+
+.row.second-row {
+  margin: 0 0.2%;
+}
+
+img {
+  height: 50%;
+}
+
+.row.middle {
+  margin: 0 1.5%;
+  padding: 0;
+}
+
+.middle {
+  margin: 0.5% 1%;
+  align-items: center;
+}
+
+.middle .product-card {
+  background-color: #dad992;
+  height: 22rem;
+  width: 12rem;
+  margin: 2% 0.2%;
+  border-radius: 2%;
+  text-align: center;
+  padding: 3% 1%;
+}
+
+.product-card img {
+  height: 110px;
+  width: 110px;
+  image-resolution: inherit;
+}
+
+.product-card p {
+  font-size: x-small;
+}
+
+.middle button {
+  height: fit-content;
+  width: fit-content;
+  padding: 5%;
+  color: cornsilk;
+  background-color: black;
+  border-style: none;
+  border-radius: 10%;
+}
+
+.middle button:hover {
+  color: black;
+  background-color: #d67d3e;
+  border-width: 2px;
+}
+
+.row.second-row {
+  margin: 0 1%;
+}
+
+.second-row .product-card {
+  background-color: #dad992;
+  height: 22rem;
+  width: 15rem;
+  margin: 2% 3%;
+  border-radius: 2%;
+  text-align: center;
+  padding: 3% 1%;
+}
+
+.second-row button {
+  height: fit-content;
+  width: fit-content;
+  padding: 5%;
+  color: cornsilk;
+  background-color: black;
+  border-style: none;
+  border-radius: 10%;
+}
+
+.second-row button:hover {
+  color: black;
+  background-color: #d67d3e;
+  border-width: 2px;
+}
+#footer {
+  text-align: center;
+  width: 100%;
+  background-color: #aedbce;
+  padding: 3% 0;
+}
+footer a p {
+  font-size: inherit;
+}
+/* footer a:hover {
+  color: gold;
+} */
+.footer-icon {
+  color: black;
+  margin: 2%;
+}
+.twitter {
+  color: blue;
+}
+.insta {
+  color: orange;
+}
+.fb {
+  color: blue;
+}
+.desc {
+  color: black;
+  font-size: small;
+}
+.footer-icon:hover {
+  color: yellow;
+}
