@@ -8,9 +8,11 @@ function Row(props) {
       {products.map((product) => {
         return (
           <Card
-            cardclass="col-lg-2 col-xxl-2 col-xl-2 col-md-3 col-sm-4 product-card"
+            key={product.id}
+            id={product.id}
             cardimage={product.image}
             prodname={product.name}
+            price={product.price}
           />
         );
       })}

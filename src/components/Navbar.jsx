@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav(props) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light top-nav">
+    <nav className="navbar navbar-expand-lg navbar-light nav">
       <div className="container-fluid">
         <a className="navbar-brand fw-bold fs-3" href="#">
           Ecommerce

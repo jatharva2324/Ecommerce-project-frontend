@@ -1,8 +1,8 @@
 .bg-container {
-  background-color: #fff;
+  background-color: #e4f9ef;
 }
 
-.top-nav {
+.nav {
   background-color: #aedbce;
   padding: 2% 2%;
 }
@@ -44,9 +44,10 @@ img {
 }
 
 .product-card img {
-  height: 110px;
-  width: 110px;
-  image-resolution: inherit;
+  height: 5rem;
+  width: 5rem;
+  /* image-resolution: inherit; */
+
 }
 
 .product-card p {
@@ -129,4 +130,68 @@ footer a p {
 }
 .footer-icon:hover {
   color: yellow;
+}
+
+.product-details{
+  padding: 2%;
+  text-align: center;
+  font-family: 'Anek Latin', sans-serif;
+}
+
+.product-details h3,h4{
+  text-align: center;
+  margin: 3%;
+}
+
+.specs {
+  text-align: left;
+  margin: 1% 5%;
+  border-style: groove;
+  padding: 2% 5%;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #D3E4CD;
+  color: black;
+}
+
+.last button {
+  height: 6%;
+  width: 10%;
+  color: wheat;
+  background-color: black;
+  padding: 0.5%;
+  font-size: 20px;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.dotted-line {
+  border-width: 10px;
+  width: 100px;
+  height: 20px;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  border-style: dotted;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  color: #99A799;
+  margin: 2% 45%;
+  background-color: white;
+}
+
+.product-image{
+  padding: 2% 12% 2% 18%;
+}
+
+.product-image img{
+  height: 25%;
+  width: 25%;
+  margin: 2%;
+  border-style: groove;
+}
+
+.card-image{
+  background-image: none;
 }
