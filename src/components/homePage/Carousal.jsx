@@ -2,7 +2,7 @@ import React from "react";
 
 function Caro() {
   return (
-    <div className="mb-5 mt-5">
+    <div className="mb-5 pt-5">
       <div
         id="carouselExampleFade"
         className="carousel slide carousel-fade top"
@@ -11,21 +11,21 @@ function Caro() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://blog.hubspot.com/hubfs/ecommerce-1.png"
+              src="../images/1.jpeg"
               className="d-block w-75"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://chameleoncollective.com/wp-content/uploads/2018/04/e-commerce-blog-post-scaled.jpg"
+              src="../images/2.jpg"
               className="d-block w-75"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://ecommerceresult.com/wp-content/uploads/2019/12/Ecommerce-trends-van-2020.jpeg"
+              src="../images/3.jpg"
               className="d-block w-75"
               alt="..."
             />

@@ -5,7 +5,6 @@ import Firstpageproducts from "./Firstpageprods";
 
 function Home(){
  return (<div className="bg-container">
- <Navbar />
  <Carousal />
  <Firstpageproducts />
 </div>)
