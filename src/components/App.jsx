@@ -1,14 +1,17 @@
-import React from "react";
-import Navbar from "./Navbar";
-import Carousal from "./Carousal";
-import Firstpageproducts from "./Firstpageprods";
+import React, { useState } from "react";
+import Home from "./homePage/Home";
+import {BrowserRouter,Routes,Route,Link} from "react-router-dom";
+import Product from "./Product";
+import data from "./homePage/data";
+
 function App() {
   return (
-    <div className="bg-container">
-      <Navbar />
-      <Carousal />
-      <Firstpageproducts />
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/product/:id" element={<Product />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 export default App;

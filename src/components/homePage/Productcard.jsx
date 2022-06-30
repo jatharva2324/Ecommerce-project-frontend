@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function createCard(props) {
   return (
@@ -8,7 +9,9 @@ function createCard(props) {
       <hr />
       <p>{props.price}</p>
       <p>{props.prodname.substring(0,50)}</p>
+      <Link to={`/product/${props.id}`}>
       <button>Buy now</button>
+      </Link>
     </div>
   );
 }

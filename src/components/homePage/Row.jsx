@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "./Productcard";
-import products from "./products.js";
+import products from "./data.js";
 
 function Row(props) {
   return (
-    <div className={props.rownumber}>
+    <div className="row middle">
       {products.map((product) => {
         return (
           <Card

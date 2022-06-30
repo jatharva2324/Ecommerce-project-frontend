@@ -3,7 +3,7 @@ import Row from "./Row.jsx";
 function Productlist() {
   return (
     <div className="">
-      <Row rownumber="row middle" />
+      <Row  />
       {/* <Row rownumber="row second-row" /> */}
     </div>
   );
