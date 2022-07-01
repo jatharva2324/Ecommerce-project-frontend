@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light nav">
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold fs-3" href="#">
-          Ecommerce
-        </a>
+        <h4 className="navbar-brand fw-bold fs-3" >
+        <Link style={{textDecoration: "none", color:"black"}} to="/">Ecommerce</Link>
+        </h4>
         <button
           className="navbar-toggler"
           type="button"
