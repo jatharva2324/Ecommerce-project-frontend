@@ -4,7 +4,8 @@ import products from "./data.js";
 
 function Row(props) {
   return (
-    <div className="row middle">
+    <div className="row products-row">
+    {/* row */}
       {products.map((product) => {
         return (
           <Card

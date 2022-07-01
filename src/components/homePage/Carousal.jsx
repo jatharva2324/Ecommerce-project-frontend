@@ -5,7 +5,7 @@ function Caro() {
     <div className="mb-5 pt-5">
       <div
         id="carouselExampleFade"
-        className="carousel slide carousel-fade top"
+        className="carousel slide carousel-fade carousel-container"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">

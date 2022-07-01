@@ -7,46 +7,42 @@
   padding: 2% 2%;
 }
 
-.top {
+.carousel-container {
   margin: 0 10%;
 }
 
-.top .carousel-inner {
+.carousel-container .carousel-inner {
   margin: 0 12%;
 }
 
-.row.second-row {
-  margin: 0 0.2%;
-}
 
-img {
+.carousel-container img {
   height: 50%;
 }
 
-.row.middle {
+.row.products-row {
   margin: 0 1.5%;
   padding: 0;
 }
 
-.middle {
+.products-row {
   margin: 0.5% 1%;
   align-items: center;
 }
 
-.middle .product-card {
+.products-row .product-card {
   background-color: #dad992;
   height: 22rem;
-  width: 12rem;
-  margin: 2% 0.2%;
+  width: 100%;
+  margin: 2% -2.8%;
   border-radius: 2%;
   text-align: center;
-  padding: 3% 1%;
+  padding: 3% 3%;
 }
 
 .product-card img {
-  height: 5rem;
-  width: 5rem;
-  /* image-resolution: inherit; */
+  height: 30%;
+  width: 60%;
 
 }
 
@@ -54,19 +50,19 @@ img {
   font-size: x-small;
 }
 
-.middle button {
+.products-row button {
   height: fit-content;
   width: fit-content;
-  padding: 5%;
+  padding: 4%;
   color: cornsilk;
   background-color: black;
   border-style: none;
   border-radius: 10%;
 }
 
-.middle button:hover {
+.products-row button:hover {
   color: black;
-  background-color: #d67d3e;
+  background-color: #639397;
   border-width: 2px;
 }
 
@@ -74,43 +70,22 @@ img {
   margin: 0 1%;
 }
 
-.second-row .product-card {
-  background-color: #dad992;
-  height: 22rem;
-  width: 15rem;
-  margin: 2% 3%;
-  border-radius: 2%;
-  text-align: center;
-  padding: 3% 1%;
-}
-
-.second-row button {
-  height: fit-content;
-  width: fit-content;
-  padding: 5%;
-  color: cornsilk;
-  background-color: black;
-  border-style: none;
-  border-radius: 10%;
-}
-
-.second-row button:hover {
-  color: black;
-  background-color: #d67d3e;
-  border-width: 2px;
-}
 #footer {
   text-align: center;
   width: 100%;
   background-color: #aedbce;
   padding: 3% 0;
 }
+
+footer a{
+  text-decoration: none;
+  color: black;
+
+}
 footer a p {
   font-size: inherit;
 }
-/* footer a:hover {
-  color: gold;
-} */
+
 .footer-icon {
   color: black;
   margin: 2%;
@@ -127,9 +102,6 @@ footer a p {
 .desc {
   color: black;
   font-size: small;
-}
-.footer-icon:hover {
-  color: yellow;
 }
 
 .product-details{
@@ -154,7 +126,7 @@ footer a p {
   color: black;
 }
 
-.last button {
+.product-details button {
   height: 6%;
   width: 10%;
   color: wheat;
@@ -182,12 +154,12 @@ footer a p {
 }
 
 .product-image{
-  padding: 2% 12% 2% 18%;
+  padding: 2% 3% 2% 6%;
 }
 
 .product-image img{
-  height: 25%;
-  width: 25%;
+  height: 24%;
+  width: 28%;
   margin: 2%;
   border-style: groove;
 }

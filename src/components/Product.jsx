@@ -30,7 +30,7 @@ function Product(){
                 
                 <p>{prod.specs}</p>
             </div>
-            <div className="last">
+            <div >
                 <button className="btn btn-sm btn-dark">Buy Now</button>
                 <Link to={`/cart/${id}`}>
                 <button className="btn btn-sm btn-dark"> Add to Cart</button>

@@ -1,17 +1,21 @@
+import Button from "react-bootstrap/Button";
 import React from "react";
 import {Link} from "react-router-dom";
 
+
 function createCard(props) {
   return (
-    <div className="col-lg-2 col-xxl-2 col-xl-2 col-md-3 col-sm-4 product-card">
+    <div className="col-lg-3 col-xxl-2 col-xl-3 col-md-4 col-sm-6 col-xs-12">
+      <div className="product-card">
       <hr />
       <img className="card-image" src={props.cardimage} alt="prodimage" />
       <hr />
-      <p>{props.price}</p>
+      <p className="fw-bold">{props.price}</p>
       <p>{props.prodname.substring(0,50)}</p>
       <Link to={`/product/${props.id}`}>
-      <button>Buy now</button>
+      <Button>Buy Now</Button>
       </Link>
+      </div>
     </div>
   );
 }
