@@ -7,23 +7,9 @@ import Button from "react-bootstrap/Button";
 
 function Cart(){
     return (
-        // <Container >
-        //     <Row>
-        //         <Col><img src="../images/img0.png" alt=" " /></Col>
-        //         <Col><p className="text-center mt-5 ps-0">lnklkandvamslvkdalvdns</p></Col>
-        //     </Row>
-        //     <Row>
-        //         <Col><img src="../images/img0.png" alt=" " /></Col>
-        //         <Col><p>lnklkandvamslvkdalvdns</p></Col>
-        //     </Row>
-        //     <Row>
-        //         <Col><img src="../images/img0.png" alt=" " /></Col>
-        //         <Col><p>lnklkandvamslvkdalvdns</p></Col>
-        //     </Row>
-        // </Container>
         <Container className="mt-5 mb-5">
             <Stack gap={3}>
-                <div className="bg-light border p-1">
+                <div className="bg-light border p-1 my-3">
                 <Row>
                     <Col xl={3} lg={3} md={6} sm={12} className="text-center"><img style={{height: "200px", width:"200px"}} src="../images/img0.png" alt=""/></Col>
                     <Col xl={5} lg={5} md={6} sm={12} className="py-5 text-center"><h6>Sony MDR-ZX110A Wired On Ear Headphone without Mic (White)</h6><p className="text-center fw-bold">350/-</p></Col>
